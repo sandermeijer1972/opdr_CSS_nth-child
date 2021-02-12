@@ -1,0 +1,32 @@
+body {
+    padding: 1em 2em;
+}
+  
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    line-height: 2;
+    background: slategrey;
+}
+
+div {
+    width: 12em;
+    float: left;
+    margin-right: 2em;
+ }
+  
+.one li:nth-child(1) {
+    background-color: lightsteelblue;
+}
+
+.two *:nth-child(2) li:nth-child(3) {
+    background-color: lightsteelblue;
+}
+
+.three *:nth-child(odd) li:not(:last-child) {
+    background-color: lightsteelblue;
+}
